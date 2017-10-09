@@ -1,0 +1,159 @@
+Enter password: *****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 1
+Server version: 5.1.33-community MySQL Community Server (GPL)
+
+Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
+
+mysql> use ccd;
+Database changed
+mysql> select * from ccday;
++-------+----------------------------------+------------------------------------
+-------------------+-------+------------+
+| pcode | item                             | descp
+                   | price | qtyinstock |
++-------+----------------------------------+------------------------------------
+-------------------+-------+------------+
+|    50 | Mango Shot                       | A Luscious and creamy Alphonso mang
+o delight          |    96 |        100 |
+|    51 | Belgian Choco Shot               | A rich smooth Belgian chocolate sho
+t                  |    80 |        100 |
+|    52 | Veg Samosa                       | Potatoes and pea cooked in traditio
+nal Indian ...     |    20 |        100 |
+|    53 | Hot and Spicy Chicken Puff       | null
+                   |    45 |         96 |
+|    54 | Chilli Cheese Toast              | null
+                   |    65 |         84 |
+|    55 | Cookie                           | Twin packs available in Blackcurran
+t, Double Choc...  |    55 |         96 |
+|    56 | Hot and Spicy Veg Puff           | Crunchy veggies tossed in spicy sau
+ce, wrapped in...  |    98 |         78 |
+|    57 | Smoked Chicken Sandwich          | Succulent smoked chicken topped wit
+h crunchy vegg...  |   145 |        100 |
+|    58 | Spinach and Corn Cheese Sandwich | null
+                   |   120 |        100 |
+|    59 | Chicken 65 Sandwich              | null
+                   |   120 |        100 |
+|    60 | Tandoori Paneer Sandwich         | Tandoori paneer with chatpata salad
+, served in a ...  |   140 |        120 |
+|    62 | Tandoori Chicken Sandwich        | Tandoori chicken with chatpata toma
+toes, wrapped ...  |   120 |         58 |
+|    63 | Cheesy Veg Croissant             | Garden fresh veggies with cheese wr
+apped in a sof...  |   145 |        100 |
+|    64 | Tex-Mex-Veg Cheese Sandwich      | Veggies tossed in chilli salsa and
+cheese, wrappe...  |   120 |         45 |
+|    65 | Black Forest Cup                 | The classic Black Forest cake serve
+d in a cup....     |   130 |         63 |
+|    66 | Chocolate Fantasy                | null
+                   |   120 |         45 |
+|    67 | Nutty Fudge Brownie              | null
+                   |   100 |         67 |
+|    68 | Cafe Coffee Day Indulgence       | Our signature chocolate cake that o
+ozes indulgenc...  |   150 |         30 |
+|    69 | Choc-Hola                        | Rich chocolate cake with scoops of
+vanilla ice cr...  |    79 |         54 |
+|    70 | Black Coffee                     | null
+                   |    70 |        120 |
+|    71 | Cafe latte                       | null
+                   |    75 |         45 |
+|    72 | Cappuccino                       | null
+                   |    60 |         96 |
+|    73 | Chococcino                       | Our Special king-size cappuccino wi
+th the rich...     |    60 |         96 |
+|    74 | Espresso                         | The original Italian classic-strong
+ dark.             |    52 |         20 |
+|    75 | Irish Coffee                     | Coffee, sugar, cream and the smooth
+ flavour of...     |   146 |        100 |
+|    76 | Macchiato                        | Espresso's punch smoothened and mel
+lowed by a ...     |   123 |         23 |
+|    77 | Cafe Mocha                       | Espresso with hot milk and sinful c
+hocolate sauce...  |    78 |         56 |
+|    78 | Choco Frappe                     | More chocolate and ice cream in ric
+h cold coff...     |   158 |         25 |
+|    79 | Iced Eskimo                      | Very rich, very cool with a strong
+coffee edge...     |    65 |         89 |
+|    80 | Kaapi Nirvana                    | A prize winner at the WBC in Norway
+! A chilled...     |   152 |        100 |
+|    81 | Mochachillo                      | Rock your world with delicious comb
+ination of ...     |   178 |         22 |
+|    82 | Assam Tea                        | Only the finest tea leaves from Ass
+am can give...     |   189 |         58 |
+|    83 | Darjeeling Tea                   | When a legend enters the French Pre
+ss, things ...     |    89 |         56 |
+|    84 | Masala Chai                      | The Masala Chai is rich, balanced a
+nd full of ...     |   255 |         21 |
+|    85 | Green Jasmine Tea                | A Sweet, aromatic and healthy tea.
+The leaves ...     |    75 |         45 |
+|    86 | Lemon Iced Tea                   | Ice cold, lemon flavoured tea, the
+ultimate refre...  |   256 |         45 |
+|    87 | Pomegranate Lemon                | Lemon iced tea with crunchy pomegra
+nate and delic...  |    65 |         54 |
+|    88 | Cranberry Lemon                  | Lemon iced tea with cranberry flavo
+ur and delicat...  |    89 |         44 |
+|    89 | Cucumber Lemon                   | Lemon iced tea with cucumber flavou
+r and a hint o...  |    85 |         12 |
+|    90 | Choco Rocks                      |  Plunge into the bottomless layers
+of sinful choco... |   256 |         74 |
+|    91 | Black Currant Blast              | Black currant flavoured milkshake b
+lended with ic...  |    63 |         36 |
+|    92 | Cool Blue                        | Bright blue and tangy ice slush.
+                   |    78 |        120 |
+|    93 | Lychee Chill                     | Delight in the lusciousness of lych
+ee in a smooth...  |   125 |         50 |
+|    94 | Mango Shake                      | Indulge in this rich, creamy mango
+shake.             |   156 |         54 |
+|    95 | Strawberry Blush                 | A slushy red strawberry chiller.
+                   |   154 |        100 |
+|    96 | Snapple                          | Available in Raspberry Cranberry, M
+ango madness &...  |    45 |         25 |
+|    97 | Mushy Mango                      | Enriched with the goodness of mango
+, The drink is...  |    80 |         30 |
+|    98 | Tangy Fushion                    | This juice is the mishmash of Kiwi,
+ Green apple a...  |   120 |         20 |
+|    99 | XXX energy drink                 | Energy bottled in two delicious fla
+vours.             |    96 |          8 |
+|   100 | Aztec                            | A delightful American coffee blend.
+ Internatio...     |   156 |         56 |
+|   101 | Strawberry Lemonade              | Luscious strawberry lemonade with f
+lavourful b...     |    90 |         47 |
+|   102 | Kiwi Lemonade                    | Zesty kiwi infused lemonade, spiced
+ with flavo...     |   148 |         53 |
+|   103 | Classic Lemonade                 | Refreshing lemonade with a touch of
+ mint and g...     |   189 |         80 |
+|   104 | Dark Passion                     | null
+                   |   189 |         80 |
+|   105 | Sizzle Dazzle Brownie            | null
+                   |    75 |         25 |
+|   106 | Fruity Blizz                     | Vanilla Ice Cream cuddled in mango,
+ black currant...  |    75 |         25 |
+|   107 | Vanilla ice cream                | Double scoops. Double delight.
+                   |    94 |         47 |
+|   108 | Chocolate Ice Cream              | Luscious and tempting chocolate ice
+ cream.            |   258 |          5 |
+|   109 | Chocolate Fantasy Cake           | Order from our wide range of delici
+ous cakes and ...  |   299 |          2 |
+|   110 | Cold Sparkle                     | null
+                   |    65 |         84 |
+|   111 | Lychee frost tea                 | null
+                   |    69 |         12 |
+|   112 | Strawberry iced tea              | null
+                   |    69 |         12 |
+|   113 | Cold Chocoholica                 | null
+                   |    96 |         45 |
+|   114 | Gourmet Hot Chocolate            | null
+                   |    80 |         54 |
+|   115 | Green Apple Soda                 | null
+                   |    60 |          5 |
+|   116 | Pome Cherry                      | null
+                   |    85 |          5 |
+|   117 | Ethiopian                        | null
+                   |    65 |          8 |
+|   118 | Chill-O-Coffee                   | null
+                   |    50 |         47 |
++-------+----------------------------------+------------------------------------
+-------------------+-------+------------+
+68 rows in set (0.02 sec)
+
+
+
+

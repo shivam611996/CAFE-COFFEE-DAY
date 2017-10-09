@@ -1,0 +1,307 @@
+create database ccd;
+use ccd;
+create table ccday(pcode integer(4),item varchar(50),descp varchar(100),price float,qtyinstock integer(4),amt float);
+
+insert into ccday values(50,'Mango Shot','A Luscious and creamy Alphonso mango delight',96,100,586);
+
+alter table ccday drop column amt;
+
+insert into ccday values(51,"Belgian Choco Shot","A rich smooth Belgian chocolate shot",80,100);
+
+insert into ccday values(52,"Veg Samosa","Potatoes and pea cooked in traditional Indian ... ",20,100);
+
+insert into ccday values(53,"Hot and Spicy Chicken Puff",'',45,96);
+
+insert into ccday values(54,"Chilli Cheese Toast",'',66,87);
+
+insert into ccday values(54,"Chilli Cheese Toast",'',66,87);
+
+insert into ccday values(55,"Cookie",'Twin packs available in Blackcurrant, Double Choc... ',55,96);
+
+insert into ccday values(56,"Hot and Spicy Veg Puff","Crunchy veggies tossed in spicy sauce, wrapped in...",98,78);
+
+insert into ccday values(57,"Smoked Chicken Sandwich","Succulent smoked chicken topped with crunchy vegg... ",145,100);
+
+insert into ccday values(58,"Spinach and Corn Cheese Sandwich","",120,100);
+
+insert into ccday values(59,"Chicken 65 Sandwich","",120,100);
+
+insert into ccday values(60,"Tandoori Paneer Sandwich","Tandoori paneer with chatpata salad, served in a ...",140,120);
+
+insert into ccday values(61,"Tandoori Paneer Sandwich","",150,78);
+
+insert into ccday values(62,"Tandoori Chicken Sandwich","Tandoori chicken with chatpata tomatoes, wrapped ...",120,58);
+
+insert into ccday values(62,"Tandoori Chicken Sandwich","Tandoori chicken with chatpata tomatoes, wrapped ...",120,58);
+
+insert into ccday values(63,"Cheesy Veg Croissant","Garden fresh veggies with cheese wrapped in a sof...",145,100);
+
+insert into ccday values(64,"Tex-Mex-Veg Cheese Sandwich","Veggies tossed in chilli salsa and cheese, wrappe...",120,45);
+
+insert into ccday values(65,"Black Forest Cup","The classic Black Forest cake served in a cup.... ",130,63);
+
+insert into ccday values(66,"Chocolate Fantasy","",120,45);
+insert into ccday values(67,"Nutty Fudge Brownie ","",100,67);
+insert into ccday values(68,"Cafe Coffee Day Indulgence","Our signature chocolate cake that oozes indulgenc...",150,30);
+insert into ccday values(69,"Choc-Hola","Rich chocolate cake with scoops of vanilla ice cr...",79,54);
+insert into ccday values(70,"Black Coffee","",70,120);
+
+insert into ccday values(71,"Cafe latte","",75,45);
+
+insert into ccday values(72,"Cappuccino","",60,96);
+
+insert into ccday values(73,"Chococcino","",60,96);
+
+insert into ccday values(74,"Espresso","The original Italian classic-strong dark.",52,20);
+
+insert into ccday values(75,"Irish Coffee","Coffee, sugar, cream and the smooth flavour of... ",146,100);
+
+insert into ccday values(76,"Macchiato","Espresso's punch smoothened and mellowed by a ...",123,23);
+
+insert into ccday values(77,"Cafe Mocha","Espresso with hot milk and sinful chocolate sauce... ",78,56);
+
+insert into ccday values(78,"Choco Frappe","More chocolate and ice cream in rich cold coff... ",158,25);
+
+insert into ccday values(79,"Iced Eskimo","Very rich, very cool with a st
+rong coffee edge...",65,89);
+
+insert into ccday values(80,"Kaapi Nirvana","A prize winner at the WBC in Norway! A chilled...",152,100);
+
+insert into ccday values(81,"Mochachillo","Rock your world with delicious combination of ... ",178,22);
+
+insert into ccday values(82,"Assam Tea","Only the finest tea leaves from Assam can give...",189,58);
+
+insert into ccday values(83,"Darjeeling Tea","When a legend enters the French Press, things ...",89,56);
+
+insert into ccday values(84,"Masala Chai","The Masala Chai is rich, balanced and full of ...",255,21);
+
+insert into ccday values(85,"Green Jasmine Tea","A Sweet, aromatic and healthy tea. The leaves ... ",75,45);
+
+insert into ccday values(86,"Lemon Iced Tea","Ice cold, lemon flavoured tea, the ultimate refre...",256,45);
+
+insert into ccday values(87,"Pomegranate Lemon","Lemon iced tea with crunchy pomegranate and delic...",65,54);
+
+insert into ccday values(88,"Cranberry Lemon","Lemon iced tea with cranberry flavour and delicat... ",89,44);
+
+insert into ccday values(89,"Cucumber Lemon","Lemon iced tea with cucumber flavour and a hint o...",85,12);
+
+insert into ccday values(90,"Choco Rocks"," Plunge into the bottomless layers of sinful choco...",256,74);
+
+insert into ccday values(91,"Black Currant Blast","Black currant flavoured milkshake blended with ic... ",63,36);
+
+insert into ccday values(92,"Cool Blue","Bright blue and tangy ice slush.",78,120);
+
+insert into ccday values(93,"Lychee Chill","Delight in the lusciousness of lychee in a smooth... ",125,50);
+
+insert into ccday values(94,"Mango Shake","Indulge in this rich, creamy mango shake. ",156,54);
+
+insert into ccday values(95,"Strawberry Blush","A slushy red strawberry chiller. ",154,100);
+
+insert into ccday values(96,"Snapple","Available in Raspberry Cranberry,Mango madness &... ",45,25);
+
+insert into ccday values(97,"Mushy Mango","Enriched with the goodness of mango, The drink is...",80,30);
+
+insert into ccday values(98,"Tangy Fushion","This juice is the mishmash of Kiwi, Green apple a...",120,20);
+
+insert into ccday values(99,"XXX energy drink","Energy bottled in two delicious flavours. ",96,8);
+
+insert into ccday values(100,"Aztec","A delightful American coffee blend.Internatio... ",156,56);
+
+insert into ccday values(101,"Strawberry Lemonade","Luscious strawberry lemonade with flavourful b... ",90,47);
+
+insert into ccday values(102,"Kiwi Lemonade","Zesty kiwi infused lemonade, spiced with flavo... ",148,53);
+
+insert into ccday values(103,"Classic Lemonade","Refreshing lemonade with a touch of mint and g...",189,80);
+
+insert into ccday values(104,"Dark Passion","",189,80);
+
+insert into ccday values(105,"Sizzle Dazzle Brownie","",75,25);
+
+insert into ccday values(106,"Fruity Blizz","Vanilla Ice Cream cuddled in mango, black currant...",75,25);
+
+insert into ccday values(107,"Vanilla ice cream","Double scoops. Double delight.",94,47);
+
+insert into ccday values(108,"Chocolate Ice Cream","Luscious and tempting chocolate ice cream.",258,5);
+
+insert into ccday values(109,"Chocolate Fantasy Cake","Order from our wide range of delicious cakes and ...",299,2);
+
+update ccday set descp = “null” where descp = “ ”;
+
+insert into ccday values(118,"Chill-O-Coffee","null",50,47);
+
+insert into ccday values(110,"Cold Sparkle","null",69,12);
+
+insert into ccday values(111,"Lychee frost tea","null",69,12);
+
+insert into ccday values(112,"Strawberry iced tea","null",69,12);
+
+
+insert into ccday values(113,"Cold Chocoholica","null",96,45);
+
+insert into ccday values(114,"Gourmet Hot Chocolate","null",80,54);
+
+
+insert into ccday values(115,"Green Apple Soda","null",60,5);
+
+insert into ccday values(116,"Pome Cherry","null",60,5);
+
+insert into ccday values(117,"Ethiopian","null",65,8);
+
+
+insert into ccday values(119,"Wakecup","null",67,78);
+
+insert into ccday values(120,"Stovetop Espresso Maker","null",75,78);
+
+insert into ccday values(121,"Drizzle(Chicory blended coffe...","null",78,98);
+
+insert into ccday values(122,"Drizzle Pure (Pack of 2) - No...","null",85,47);
+
+insert into ccday values(123,"Mysore Nuggets Extra Bold","null",45,87);
+
+insert into ccday values(124,"Indian Kathlekhan Superior","null",77,99);
+insert into ccday values(125,"Cookies","null",88,98);
+insert into ccday values(126,"Chocolates","null",78,100);
+
+alter table ccday modify price Int(20);
+
+create database logid;
+
+use logid;
+
+create table ccday(eid varchar(50),pass varchar(50));
+
+insert into ccday values("shivam","ganesh");
+
+insert into ccday values("ganesh","shivam");
+
+create table pay(cno int(50),cname varchar(50));
+
+insert into pay values(1234,"shivam");
+
+insert into pay values(5678,"ganesh");
+
+commit;
+
+mysql> select * from ccday;
++-------+----------------------------------+------------------------------------
+-------------------+-------+------------+
+| pcode | item                             | descp
+                   | price | qtyinstock |
++-------+----------------------------------+------------------------------------
+-------------------+-------+------------+
+|    50 | Mango Shot                       | A Luscious and creamy Alphonso mang
+o delight          |    96 |        100 |
+|    51 | Belgian Choco Shot               | A rich smooth Belgian chocolate sho
+t                  |    80 |        100 |
+|    52 | Veg Samosa                       | Potatoes and pea cooked in traditio
+nal Indian ...     |    20 |        100 |
+|    53 | Hot 'N' Spicy Chicken Puff       |
+                   |    45 |         96 |
+|    54 | Chilli Cheese Toast              |
+                   |    66 |         87 |
+|    54 | Chilli Cheese Toast              |
+                   |    66 |         87 |
+|    55 | Cookie                           | Twin packs available in Blackcurran
+t, Double Choc...  |    55 |         96 |
+|    56 | Hot 'N' Spicy Veg Puff           | Crunchy veggies tossed in spicy sau
+ce, wrapped in...  |    98 |         78 |
+|    57 | Smoked Chicken Sandwich          | Succulent smoked chicken topped wit
+h crunchy vegg...  |   145 |        100 |
+|    58 | Spinach 'N' Corn Cheese Sandwich |
+                   |   120 |        100 |
+|    59 | Chicken 65 Sandwich              |
+                   |   120 |        100 |
+|    60 | Tandoori Paneer Sandwich         | Tandoori paneer with chatpata salad
+, served in a ...  |   140 |        120 |
+|    61 | Tandoori Paneer Sandwich         |
+                   |   150 |         78 |
+|    62 | Tandoori Chicken Sandwich        | Tandoori chicken with chatpata toma
+toes, wrapped ...  |   120 |         58 |
+|    63 | Cheesy Veg Croissant             | Garden fresh veggies with cheese wr
+apped in a sof...  |   145 |        100 |
+|    64 | Tex-Mex-Veg Cheese Sandwich      | Veggies tossed in chilli salsa and
+cheese, wrappe...  |   120 |         45 |
+|    65 | Black Forest Cup                 | The classic Black Forest cake serve
+d in a cup....     |   130 |         63 |
+|    66 | Chocolate Fantasy                |
+                   |   120 |         45 |
+|    67 | Nutty Fudge Brownie              |
+                   |   100 |         67 |
+|    68 | Cafe Coffee Day Indulgence       | Our signature chocolate cake that o
+ozes indulgenc...  |   150 |         30 |
+|    69 | Choc-Hola                        | Rich chocolate cake with scoops of
+vanilla ice cr...  |    79 |         54 |
+|    70 | Black Coffee                     |
+                   |    70 |        120 |
+|    71 | Cafe latte                       |
+                   |    75 |         45 |
+|    72 | Cappuccino                       |
+                   |    60 |         96 |
+|    73 | Chococcino                       |
+                   |    60 |         96 |
+|    74 | Espresso                         | The original Italian classic-strong
+ dark.             |    52 |         20 |
+|    75 | Irish Coffee                     | Coffee, sugar, cream and the smooth
+ flavour of...     |   146 |        100 |
+|    76 | Macchiato                        | Espresso's punch smoothened and mel
+lowed by a ...     |   123 |         23 |
+|    77 | Cafe Mocha                       | Espresso with hot milk and sinful c
+hocolate sauce...  |    78 |         56 |
+|    78 | Choco Frappe                     | More chocolate and ice cream in ric
+h cold coff...     |   158 |         25 |
+|    79 | Iced Eskimo                      | Very rich, very cool with a strong
+coffee edge...     |    65 |         89 |
+|    80 | Kaapi Nirvana                    | A prize winner at the WBC in Norway
+! A chilled...     |   152 |        100 |
+|    81 | Mochachillo                      | Rock your world with delicious comb
+ination of ...     |   178 |         22 |
+|    82 | Assam Tea                        | Only the finest tea leaves from Ass
+am can give...     |   189 |         58 |
+|    83 | Darjeeling Tea                   | When a legend enters the French Pre
+ss, things ...     |    89 |         56 |
+|    84 | Masala Chai                      | The Masala Chai is rich, balanced a
+nd full of ...     |   255 |         21 |
+|    85 | Green Jasmine Tea                | A Sweet, aromatic and healthy tea.
+The leaves ...     |    75 |         45 |
+|    86 | Lemon Iced Tea                   | Ice cold, lemon flavoured tea, the
+ultimate refre...  |   256 |         45 |
+|    87 | Pomegranate Lemon                | Lemon iced tea with crunchy pomegra
+nate and delic...  |    65 |         54 |
+|    88 | Cranberry Lemon                  | Lemon iced tea with cranberry flavo
+ur and delicat...  |    89 |         44 |
+|    89 | Cucumber Lemon                   | Lemon iced tea with cucumber flavou
+r and a hint o...  |    85 |         12 |
+|    90 | Choco Rocks                      |  Plunge into the bottomless layers
+of sinful choco... |   256 |         74 |
+|    91 | Black Currant Blast              | Black currant flavoured milkshake b
+lended with ic...  |    63 |         36 |
+|    92 | Cool Blue                        | Bright blue and tangy ice slush.
+                   |    78 |        120 |
+|    93 | Lychee Chill                     | Delight in the lusciousness of lych
+ee in a smooth...  |   125 |         50 |
+|    94 | Mango Shake                      | Indulge in this rich, creamy mango
+shake.             |   156 |         54 |
+|    95 | Strawberry Blush                 | A slushy red strawberry chiller.
+                   |   154 |        100 |
+|    96 | Snapple                          | Available in Raspberry Cranberry, M
+ango madness &...  |    45 |         25 |
+|    97 | Mushy Mango                      | Enriched with the goodness of mango
+, The drink is...  |    80 |         30 |
+|    98 | Tangy Fushion                    | This juice is the mishmash of Kiwi,
+ Green apple a...  |   120 |         20 |
+|    99 | XXX energy drink                 | Energy bottled in two delicious fla
+vours.             |    96 |          8 |
+|   100 | Aztec                            | A delightful American coffee blend.
+ Internatio...     |   156 |         56 |
+|   101 | Strawberry Lemonade              | Luscious strawberry lemonade with f
+lavourful b...     |    90 |         47 |
+|   102 | Kiwi Lemonade                    | Zesty kiwi infused lemonade, spiced
+ with flavo...     |   148 |         53 |
+|   103 | Classic Lemonade                 | Refreshing lemonade with a touch of
+ mint and g...     |   189 |         80 |
++-------+----------------------------------+------------------------------------
+-------------------+-------+------------+
+55 rows in set (0.00 sec)
+
+commit;
+

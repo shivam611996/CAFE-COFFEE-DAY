@@ -1,0 +1,28 @@
+
+create database logid;
+
+use logid;
+
+create table ccday(eid varchar(50),pass varchar(50));
+
+insert into ccday values("shivam","ganesh");
+
+insert into ccday values("ganesh","shivam");
+
+create table pay(cno int(50),cname varchar(50));
+
+insert into pay values(1234,"shivam");
+
+insert into pay values(5678,"ganesh");
+
+commit;
+
+
+mysql> select * from ccday;
++--------+--------+
+| eid    | pass   |
++--------+--------+
+| shivam | ganesh |
+| ganesh | shivam |
++--------+--------+
+2 rows in set (0.00 sec)
